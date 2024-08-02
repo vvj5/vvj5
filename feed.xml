@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-01T15:36:32+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hi, I’m Will</title><subtitle>As an experience designer, I'm all about collaboration, research, analysis, designing and finding pragmatic solutions to complex problems. As a person, I'm all about exploring, understanding, playing, creating and growing. </subtitle><entry><title type="html">Contact page redesign</title><link href="http://localhost:4000/projects/2021/04/15/contact-page-redesign.html" rel="alternate" type="text/html" title="Contact page redesign" /><published>2021-04-15T00:00:00+10:00</published><updated>2021-04-15T00:00:00+10:00</updated><id>http://localhost:4000/projects/2021/04/15/contact-page-redesign</id><content type="html" xml:base="http://localhost:4000/projects/2021/04/15/contact-page-redesign.html">&lt;p&gt;While working as a Senior UX Designer at CUA (Credit Union Australia), I was tasked with the redesign of the Contact Us page. Here’s how I approached this project…&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1&gt;1. Understand the problem and benefits&lt;/h1&gt;
+
+&lt;h3&gt;The problem to be solved:&lt;/h3&gt;
+&lt;p&gt;Determine what users want and need from a contact page and allow them to access it as swiftly as possible, with a focus on the ability to self-service.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;Potential benefits of this project:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reduce call centre eunquiry volume&lt;/li&gt;
+  &lt;li&gt;Improve user experience and satisfaction (self-service, good service experience)
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Contact page as-is&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/CUA_contact/contact.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1&gt;2. Discovery &amp;amp; Analysis&lt;/h1&gt;
+
+&lt;h3&gt;Competitive analysis - what are other institutions doing with their contact page(s)?&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;What are they calling it?&lt;/li&gt;
+  &lt;li&gt;How do they get users to it?&lt;/li&gt;
+  &lt;li&gt;What sections do they break it into?&lt;/li&gt;
+  &lt;li&gt;What other links do they include?&lt;/li&gt;
+  &lt;li&gt;Any other interesting notes or ideas?
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Competitive analysis&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/CUA_contact/comp.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Website search data analysis&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;What are users searching for?&lt;/li&gt;
+  &lt;li&gt;What terminology are users entering?&lt;/li&gt;
+  &lt;li&gt;What are users unable to find swiftly by just scanning and clicking through our site?&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Looked at 6 months of data&lt;/li&gt;
+  &lt;li&gt;198 line items&lt;/li&gt;
+  &lt;li&gt;Many variations on terms and spelling&lt;/li&gt;
+  &lt;li&gt;In order to better understand the search term data, I grouped the items into themes, then sorted them into rankings by popularity.
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Website search raw data&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/CUA_contact/search.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Website search data analysis&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/CUA_contact/search_analysis.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Call centre data analysis&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;What are users calling for help with?&lt;/li&gt;
+  &lt;li&gt;Looked at 6 months of data&lt;/li&gt;
+  &lt;li&gt;152 line items&lt;/li&gt;
+  &lt;li&gt;I grouped the items into as similar themes as I could to the website search data, then sorted into rankings by call volume.
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Call centre raw data&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/CUA_contact/calls.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Call centre data analysis&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/CUA_contact/calls_analysis.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Observations from traffic and click-through data (Google Analytics, CrazyEgg)&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Redundant links &amp;amp; terms causing confusion about where to click (“contact”, “login”).&lt;/li&gt;
+  &lt;li&gt;Poorly indicated links and CTAS have users clicking on section titles, bullet points and tiles.&lt;/li&gt;
+  &lt;li&gt;Unclear navigation throughout the whole site drives a lot of users to the contact page.&lt;/li&gt;
+  &lt;li&gt;Users are navigating to the contact page, then out to other website pages, indicating inability to find solutions on the contact page.&lt;/li&gt;
+  &lt;li&gt;Only 19.83% of visitors to the contact page click on something within the contact page.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4&gt;CrazyEgg report&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/CUA_contact/crazyegg.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;CrazyEgg data analysis&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/CUA_contact/crazyegg_analysis.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Combine and analyze data themes&lt;/h3&gt;
+
+&lt;h4&gt;What is the combined data telling us?&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;I combined the most common themes from all of the data sources, then sorted by popularity.&lt;/li&gt;
+  &lt;li&gt;This information provided the guidance to inform the page design.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Combined data&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/CUA_contact/combined.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1&gt;3. Design phase&lt;/h1&gt;
+
+&lt;h3&gt;Create wireframes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mobile-first design&lt;/li&gt;
+  &lt;li&gt;Highlight search bar&lt;/li&gt;
+  &lt;li&gt;List main user help topics in order of statistical need&lt;/li&gt;
+  &lt;li&gt;Help topics expand to reveal more common needs in respective categories&lt;/li&gt;
+  &lt;li&gt;Product support sections link to most relevant (existing) support pages&lt;/li&gt;
+  &lt;li&gt;Additional CTAs added and highlighted by relevance and benefit&lt;/li&gt;
+  &lt;li&gt;Links mapped to wireframe&lt;/li&gt;
+  &lt;li&gt;Presented to stakeholders and approval received
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Wireframes (mobile)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/CUA_contact/wireframe_mobile.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Wireframes (desktop &amp;amp; tablet)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/CUA_contact/wireframe_desktop_tablet.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Mapped-out links&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/portfolio/CUA_contact/linkmap.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Next steps&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Send to copywriting for copy review and refinement&lt;/li&gt;
+  &lt;li&gt;Send to UI for design review and refinement&lt;/li&gt;
+  &lt;li&gt;Discuss “anticipated wait time” widget with front-end development&lt;/li&gt;
+  &lt;li&gt;Submit for Legal approval&lt;/li&gt;
+  &lt;li&gt;Write front-end development specifications card for Trello&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;http://www.linkedin.com/in/willjsherman&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download my &lt;a href=&quot;../Will_Sherman_resume.pdf&quot;&gt;CV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can send me an &lt;a href=&quot;mailto:Will@willjsherman.com&quot;&gt;email&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">While working as a Senior UX Designer at CUA (Credit Union Australia), I was tasked with the redesign of the Contact Us page. Here’s how I approached this project…</summary></entry><entry><title type="html">My story</title><link href="http://localhost:4000/blog/2021/01/01/My-story.html" rel="alternate" type="text/html" title="My story" /><published>2021-01-01T13:52:21+10:00</published><updated>2021-01-01T13:52:21+10:00</updated><id>http://localhost:4000/blog/2021/01/01/My-story</id><content type="html" xml:base="http://localhost:4000/blog/2021/01/01/My-story.html">&lt;h2&gt;A bit more about me&lt;/h2&gt;
+
+&lt;p&gt;Originally from Austin, Texas, I have also lived in Ireland and England and now permanently reside in Australia. I am a father of three, and I count parenthood as a valid workplace skillset and absolutely relevant career experience!&lt;/p&gt;
+
+&lt;p&gt;I love stories. I am a collector and a teller of stories. Stories create understanding, and an Experience Designer must be able to understand their users and their stories in order to solve problems and create value.&lt;/p&gt;
+
+&lt;p&gt;In addition to my deep collection of stories, my strong knowledge of UX and UI principles, techniques and tools make me a versatile team member.&lt;/p&gt;
+
+&lt;p&gt;Eminently pragmatic, my wide range of product and industry experience has taught me that sometimes an educated decision is the right choice when time or data is limited.&lt;/p&gt;
+
+&lt;p&gt;A data-driven, methodical designer with a love for human centred design, I love working collaboratively with my team, stakeholders and users.&lt;/p&gt;
+
+&lt;p&gt;I have been working fully remote for nearly three years now, I pride myself on being able to adapt to a myriad of working styles to get things done.&lt;/p&gt;
+
+&lt;p&gt;Professionally, I find that empathy and humility are my most valuable qualities, and I am known as a specialist in stakeholder management. I seek to really hear and understand the stories of all parties involved before diving into the solution.&lt;/p&gt;
+
+&lt;p&gt;Personally, I am a colourful character who loves cooking, gardening and music, and I celebrate the diversity of human existence and all the stories it holds.&lt;/p&gt;
+
+&lt;p&gt;I am at my very best when working in a positive, open team culture.&lt;/p&gt;
+
+&lt;p&gt;You can read more specific information about my career history on &lt;a href=&quot;http://www.linkedin.com/in/willjsherman&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading, I am always humbled and honoured when someone spends their time to learn more about me!&lt;/p&gt;
+
+&lt;p&gt;~Will&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;http://www.linkedin.com/in/willjsherman&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download my &lt;a href=&quot;../Will_Sherman_resume.pdf&quot;&gt;CV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can send me an &lt;a href=&quot;mailto:Will@willjsherman.com&quot;&gt;email&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">A bit more about me</summary></entry><entry><title type="html">Yoda and The Four Ps</title><link href="http://localhost:4000/blog/2019/07/17/yoda-and-my-mantra.html" rel="alternate" type="text/html" title="Yoda and The Four Ps" /><published>2019-07-17T00:00:00+10:00</published><updated>2019-07-17T00:00:00+10:00</updated><id>http://localhost:4000/blog/2019/07/17/yoda-and-my-mantra</id><content type="html" xml:base="http://localhost:4000/blog/2019/07/17/yoda-and-my-mantra.html">&lt;!-- &lt;img src=&quot;/images/resources/words.jpeg&quot;&gt; --&gt;
+
+&lt;h2&gt;&quot;Brought you here, the galaxy has. Your path, clearly, this is.&quot;&lt;/h2&gt;
+&lt;p&gt;~Yoda&lt;/p&gt;
+
+&lt;p&gt;I have always liked Yoda. He may not be real (or IS HE?), but that’s not the point I’m trying to make with this piece.&lt;/p&gt;
+
+&lt;p&gt;No, dear reader, my point, like the stubby graphite of a pencil that’s been scraped back and forth across a concrete slab in the fist of a toddler, is that Yoda has some pretty epic quotes attributed to him.&lt;/p&gt;
+
+&lt;h2&gt;&quot;DO NOT TRY! DO OR DO NOT, THERE IS NO TRY&quot;&lt;/h2&gt;
+&lt;p&gt;~Yoda&lt;/p&gt;
+
+&lt;p&gt;I mean, sure, it’s dialogue derivative of Jung and such, but I still find it relevant, helpful and worthy of discussion. If you have a problem with that, then we’re probably not going to get along very well, and I also doubt Yoda would approve much of your bad attitude.&lt;/p&gt;
+
+&lt;p&gt;When I moved back to Australia in 2016, I knew I had a hard journey ahead of me. Hard like that time that when whiny ol’ Luke Skywalker went to Dagobah to study with Yoda. YES, I KNOW LUKE SKYWALKER ISN’T REAL EITHER, JUST GO WITH IT.&lt;/p&gt;
+
+&lt;p&gt;Anyway, suffice it to say that I had to prepare myself as well as I knew how for this adventure, and that involved channeling some Yodian mojo to help me keep my head straight.&lt;/p&gt;
+
+&lt;p&gt;Yes, I just made up a word to describe things a fictional character said as a school of philosophical thought. I’m ok with tha. And so should you be if we are to remain friends.&lt;/p&gt;
+
+&lt;p&gt;So as a contemplative exercise one day, I wrote a list of words that described Yodian attitudes and behaviors that I’d like to remind myself to stick to when things get tough.&lt;/p&gt;
+
+&lt;p&gt;The initial list was about 10 words, and I wanted to distill these down to a much smaller number that my “socks in a dryer” brain could hang-onto without too much extreme effort.&lt;/p&gt;
+
+&lt;p&gt;After literally weeks of meditation, deliberation and elimination, I emerged from the Dark Side Tree, having finalized my mantra words.&lt;/p&gt;
+
+&lt;p&gt;Ok, I didn’t actually go into a tree, but I did think about this a lot. I probably even looked at a tree or two.&lt;/p&gt;
+
+&lt;h2&gt;THE FOUR Ps&lt;/h2&gt;
+&lt;p&gt;I noticed a pattern in my words, and chose to stick with it, because a) it helped me remember them all, b) the words worked perfectly for me and c) saying “The Four Ps” sounds a lot cooler than saying “These Words I Came Up With”.&lt;/p&gt;
+
+&lt;p&gt;I wrote the words on my mirror in Sharpie. Did you know that nail polish remover will take permanent marker right off of glass, no problem? Don’t freak-out, thinking “Damn, Will just jacked-up his mirror!”&lt;/p&gt;
+
+&lt;p&gt;Anyway, I even put my words into an ordered protocol, in which I felt they built-upon one-another. I asked Yoda, and he backed me up. Hey, I can talk to all the fictional characters I want! If they answer, maybe I have a problem, but let’s just save that discussion for another time.&lt;/p&gt;
+
+&lt;h2&gt;P #1: PRESENT&lt;/h2&gt;
+&lt;p&gt;My mind needs to be able to focus on listening, learning, concentrating, experiencing, really being there with my family or with my team.&lt;/p&gt;
+
+&lt;p&gt;This means putting my phone away, turning all notifications off and focusing completely on the task at hand. Instagram just felt a great disturbance in the Force, as if a billion Likes just cried out and vanished.&lt;/p&gt;
+
+&lt;h2&gt;P #2: POSITIVE&lt;/h2&gt;
+&lt;p&gt;I sometimes need extra encouragement than most to remain positive. I felt this word could help clear my mind, prepare it for input and keep my stress-levels to a dull-roar. I have a tendency to take things hard and I get discouraged and frustrated. Positivity is a good word for me to focus on.&lt;/p&gt;
+
+&lt;h2&gt;P #3: PATIENT&lt;/h2&gt;
+&lt;p&gt;Despite having three young kids, I am not always a tremendously patient person, and, knowing this about myself, I sought to remind myself often to be patient - with my family, my team and myself.&lt;/p&gt;
+
+&lt;h2&gt;P #4: PERSISTENT&lt;/h2&gt;
+&lt;p&gt;This was one of the last words I came up with, and I feel is one of the most critical (though for me they are all mandatory).&lt;/p&gt;
+
+&lt;p&gt;I’d need to beat-down my frustration sometimes, reset, recheck my mantra and try again.&lt;/p&gt;
+
+&lt;p&gt;My friend Jeff once said, “It’s not how many times you get knocked down that matters, it’s how many times you get back up.” Jeff is a pretty Yodian dude, you’d like him.&lt;/p&gt;
+
+&lt;p&gt;So there you have them: Present, Positive, Patient and Persistent. In that order.&lt;/p&gt;
+
+&lt;p&gt;All of them have to be there (for me at least), and I needed to be reminded of all these things CONSTANTLY.&lt;/p&gt;
+
+&lt;p&gt;I do not always succeed at maintaining all of these traits. My point in using them is exactly for that reason.&lt;/p&gt;
+
+&lt;p&gt;These words are for ME, for MY weaknesses that I need help with on a regular basis. You’re welcome to use them too, I’m ok with that (I’ll send you an invoice). You may need to add or remove or change one or all of them. But that’s kind-of the point. This is just what I came up with - you might need totally different words. But coming up with a solid and manageable mantra is pretty good for me, I’ve found.&lt;/p&gt;
+
+&lt;p&gt;I hope that this was at least mildly entertaining, if not actually helpful. I hope it also goes without saying that this is really intensely personal stuff, that I am not a therapist, guru or influencer, just a Padawan in search of The Force, and a person who shares in the hopes of helping other folks.&lt;/p&gt;
+
+&lt;h2&gt;&quot;Luminous beings are we... not this crude matter.&quot;&lt;/h2&gt;
+&lt;p&gt;~Yoda&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;http://www.linkedin.com/in/willjsherman&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download my &lt;a href=&quot;../Will_Sherman_resume.pdf&quot;&gt;CV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can send me an &lt;a href=&quot;mailto:Will@willjsherman.com&quot;&gt;email&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html"></summary></entry><entry><title type="html">Where UX lives</title><link href="http://localhost:4000/blog/2019/04/04/where-ux-lives.html" rel="alternate" type="text/html" title="Where UX lives" /><published>2019-04-04T00:00:00+10:00</published><updated>2019-04-04T00:00:00+10:00</updated><id>http://localhost:4000/blog/2019/04/04/where-ux-lives</id><content type="html" xml:base="http://localhost:4000/blog/2019/04/04/where-ux-lives.html">&lt;p&gt;As a part of my eternal introspection, and as a devout follower of The Cult of UX, I put this question to myself one day- “Where does UX live?” I mean, is UX just a tech thing? Honestly, I feel like I’ve always done UX in one way or another, regardless of industry or role.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/resources/think.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I think back into the dizzyingly distant past of 1998, when I giddily began my professional career as a visual designer. I went on to build websites, then ran my own multi-disciplinary creative agency, then moved into an executive marketing role, and also did a lot of events work along the way.&lt;/p&gt;
+
+&lt;p&gt;Back then (and still all-to-frequently now), the industry-standard approach to any kind of project, be-it creative or tech, usually would go something like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The customer bigwigs and the account manager get together, decide what to make, how long it will take and how much it will cost.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Account Manager tells the developers &amp;amp; creative team what to make.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The developers &amp;amp; creative team make something.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Account Manager goes back and forth between their production team and the customer bigwigs, some adjustments are made.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The bigwigs roll out the finished project to their users/audience.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I always found this kind-of ass-backwards, and never understood why the users were left out of the loop til the very end. Over the years, I started to develop a “user-centric”, more collaborative approach to projects.&lt;/p&gt;
+
+&lt;p&gt;The first thing I changed about the standard process was to eliminate the account managers. This saved both money and time, eliminated “Chinese Whispers” and created transparency and accountability. Then, as the person who would actually be creating or building the project, I would discuss project goals and ideas at length directly with my customers and would always really question things from a user’s perspective. Whenever possible, I would ask to talk to members of the target audience/user group and pick their brains about their perceptions and needs, and would test drafts similarly before moving forward. I made great efforts to see my work through the eyes of the end-customers/users and include them in the process early on.&lt;/p&gt;
+
+&lt;p&gt;I just saw this approach as common sense, really, and never understood why no-one else saw the value in it.&lt;/p&gt;
+
+&lt;p&gt;Years later, this philosophy has been more formally defined as “User Experience Design” (with some variation in terminology). Now that UX is officially “a thing,” I’ve embraced it as my profession and my passion. It suits my personality, experience and talents well, and I absolutely believe in its value, both to users and to stakeholders.&lt;/p&gt;
+
+&lt;p&gt;So was I really doing UX as a creative? As a marketing exec? In events? I see the first step to an answer as delineating the components of UX (in as general a sense as I can)&lt;/p&gt;
+
+&lt;p&gt;The UX process:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Discovery&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Planning&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Execution&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Evaluation&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Adjustment&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Iteration&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;UX skillsets:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Communication&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Empathy&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Analysis&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Creativity&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Problem-solving&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;UX purpose:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Understand the end-user/audience’s needs&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Deliver a positive experience&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Achieve specific, measurable goals&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So how would this UX framework apply to creative, marketing or events?&lt;/p&gt;
+
+&lt;p&gt;Discovery when applied to creative, marketing, events = lots of questions that boil down to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Who is this for?”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“What do they need?”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“What should we do?”&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Planning when applied to creative, marketing, events:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Brainstorm, workshop, map-out, budget, timeline&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Anticipate user needs and situations&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Determine measures&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Test plans with appropriate users&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The rest is pretty straightforward when applied to creative, marketing, events:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create something&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Evaluate measures we built-in&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Adjust what we built&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Iterate to make it better&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Creative is a process that requires an understanding of the intended audience, a tactical strategy and rationale based on specific goals, testing of initial drafts, refinement and iteration until the design is right. Measures can (and should) be built-in, using a variety of techniques, and at the end of the project, we should be able to see if our efforts met the needs of the stakeholders and the users. The creative project process is very similar to that of UX, but with more focus on the “Execution” node than UX would have.&lt;/p&gt;
+
+&lt;p&gt;Marketing as a process is almost indistinguishable in form from UX. The main difference is really pretty basic- UX is pure marketing applied to a digital interface. “Discovery, Planning, Execution, Evaluation, Adjustment, Iteration” is 100% the same as the marketing process. The main difference I can see is that UX is usually a lot more focussed on the “Discovery” and “Planning” segments, where marketing tends to be more balanced across all of the nodes.&lt;/p&gt;
+
+&lt;p&gt;Events as compared to UX is a really interesting discussion for me. A trade show is basically a visceral, complete UI sensory experience, and the UX strategic design approach to a show booth project is just as immersive (if not more so) as a web UX project. It’s basically a digital UX project brought into 3D reality.&lt;/p&gt;
+
+&lt;p&gt;For example, when considering the selection, orientation and layout of a trade show booth, I have to put myself into an imaginary “Google Maps Street View” mode and anticipate what a show attendee would see, hear, smell, feel and think as they navigate the entire show, in order to best attract and engage the correct audience for my booth.&lt;/p&gt;
+
+&lt;p&gt;And again, the same questions — “Who are we looking for?” “What are their needs?” “How can we make their lives easier?” “Are our sensory components attracting, directing and speaking to our target audience?” As with web or print UX, some approaches that would work for certain audiences would be off-putting to others.&lt;/p&gt;
+
+&lt;p&gt;As added UX factors, a trade show event must also address the issues of comfort and approachability, and must also balance the issue of “is the swag giveaway at our booth creating lasting and repeated impressions or is it just a waste of money?”&lt;/p&gt;
+
+&lt;p&gt;When planning an entertainment event, there are a number of similar UX factors as a trade show, but often (though not always) on a larger scale. But the complex blend of logistics and practicality with aesthetic and experience can be very different.&lt;/p&gt;
+
+&lt;p&gt;But again, very similar questions to a UX project discovery stage are asked “Who will be attending?” “What are attendee needs and expectations?” “Are the visual aids directing attendees correctly and efficiently?” “Are we making attendee experience easy and pleasant while staying in budget?”&lt;/p&gt;
+
+&lt;p&gt;Looking back at my career through a UX lens, I can see that UX featured heavily in nearly every role I’ve held. It’s been an approach, a perspective and a philosophy that I’ve always used.&lt;/p&gt;
+
+&lt;p&gt;UX is absolutely not limited to the tech industry, apps or websites. It can (and does) exist in many roles if you choose to apply it. It just changes medium.&lt;/p&gt;
+
+&lt;p&gt;So, to answer my own question of myself, “Where does UX actually live?” It exists wherever you choose to apply it.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;http://www.linkedin.com/in/willjsherman&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download my &lt;a href=&quot;../Will_Sherman_resume.pdf&quot;&gt;CV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can send me an &lt;a href=&quot;mailto:Will@willjsherman.com&quot;&gt;email&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">As a part of my eternal introspection, and as a devout follower of The Cult of UX, I put this question to myself one day- “Where does UX live?” I mean, is UX just a tech thing? Honestly, I feel like I’ve always done UX in one way or another, regardless of industry or role.</summary></entry><entry><title type="html">UX 101</title><link href="http://localhost:4000/resources/2019/03/27/ux101.html" rel="alternate" type="text/html" title="UX 101" /><published>2019-03-27T00:00:00+10:00</published><updated>2019-03-27T00:00:00+10:00</updated><id>http://localhost:4000/resources/2019/03/27/ux101</id><content type="html" xml:base="http://localhost:4000/resources/2019/03/27/ux101.html">&lt;p&gt;&lt;i&gt;The purpose of this document is to help a UX designer explain their role and process to a client (current or prospective) or a team. It’s intended for audiences that may still not understand the difference between UX design and UI design.&lt;br /&gt;
+  &lt;br /&gt;
+You’re welcome to use and change this document as you see fit, just don’t be an asshole about it :)&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/downloads/UX101.odt&quot;&gt;&lt;code&gt;Download this page as an editable ODT doc&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h4&gt;Definitions:&lt;/h4&gt;
+&lt;p&gt;&lt;u&gt;UX design (User Experience design)&lt;/u&gt; =  Function (how the product works)&lt;br /&gt;
+  &lt;br /&gt;
+  &lt;u&gt;UI design (User Interface design)&lt;/u&gt; = Form (how the product looks)&lt;br /&gt;
+  &lt;br /&gt;
+  &lt;u&gt;UX Designer role&lt;/u&gt;&lt;br /&gt;
+    - Identifies users and usability needs, proposes practical design solutions for intuitive, pleasant product interaction (navigation, taxonomy, devices, task flows, feel)&lt;br /&gt;
+    - Creates the brief and requirements for the UI Designer to build&lt;br /&gt;
+    &lt;br /&gt;
+  &lt;u&gt;UI Designer role&lt;/u&gt;&lt;br /&gt;
+    - Creates the actual visual design and builds the User Interface&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;THE UX PROCESS&lt;/h2&gt;
+&lt;p&gt;…is methodical, collaborative and iterative.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4&gt;Discover &amp;amp; Understand:&lt;/h4&gt;
+    &lt;p&gt;Ask questions and analyse data until you understand the usability needs and the business goals.&lt;br /&gt;
+  ⁃ What kinds of user types are there?&lt;br /&gt;
+  ⁃ Who are the users? (demographics)&lt;br /&gt;
+  ⁃ What are the problems we need to solve?&lt;br /&gt;
+  ⁃ How can we add value?&lt;br /&gt;
+  ⁃ What are the constraints?&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4&gt;Strategy &amp;amp; Scope:&lt;/h4&gt;
+    &lt;p&gt;Generate and document user needs and business goals, project requirements, resources and specifications.&lt;br /&gt;
+  ⁃ What are we creating?&lt;br /&gt;
+  ⁃ What can we realistically do?&lt;br /&gt;
+  ⁃ When will we know we’re done with this iteration?&lt;br /&gt;
+  ⁃ How will we measure success?&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4&gt;Structure:&lt;/h4&gt;
+    &lt;p&gt;Collaboratively create and validate information architecture, site map, navigation structure, taxonomies and task flows.&lt;br /&gt;
+  ⁃ What are things called?&lt;br /&gt;
+  ⁃ How do things need to be grouped?&lt;br /&gt;
+  ⁃ What does each user type need to see on each screen?&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4&gt;Wireframe:&lt;/h4&gt;
+    &lt;p&gt;Iteratively create and validate the interface layout (keep the drafts content-based: no colours/fonts/images). If you have multiple user groups, create these with each group, then socialise with the other groups. Have the users present and explain to each other.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4&gt;Test &amp;amp; Refine:&lt;/h4&gt;
+    &lt;p&gt;Test and socialise with the correct user groups and refine until functionality is validated.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4&gt;UI:&lt;/h4&gt;
+    &lt;p&gt;Generate the brief for UI and visual design look and feel. Begin design iterations.&lt;br /&gt;
+  ⁃ No design by committee. NO. DESIGN. BY. COMMITTEE.&lt;br /&gt;
+  ⁃ Be prepared to explain and defend your designs, but be open to reasoned feedback. Remain convince-able.&lt;br /&gt;
+  ⁃ Egos and opinions can be mitigated by A/B testing, user feedback and data.&lt;br /&gt;
+  ⁃ Bad UI can ruin good UX&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4&gt;Test &amp;amp; Refine:&lt;/h4&gt;
+    &lt;p&gt;Test with the correct user groups and refine until ready to release.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4&gt;Monitor:&lt;/h4&gt;
+    &lt;p&gt;Watch usage data and feedback channels&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4&gt;Iterate:&lt;/h4&gt;
+    &lt;p&gt;Commit to continuous improvement. Collect data and feedback, adjust and cycle again.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;http://www.linkedin.com/in/willjsherman&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download my &lt;a href=&quot;../Will_Sherman_resume.pdf&quot;&gt;CV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can send me an &lt;a href=&quot;mailto:Will@willjsherman.com&quot;&gt;email&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="resources" /><summary type="html">The purpose of this document is to help a UX designer explain their role and process to a client (current or prospective) or a team. It’s intended for audiences that may still not understand the difference between UX design and UI design. You’re welcome to use and change this document as you see fit, just don’t be an asshole about it :)</summary></entry><entry><title type="html">UX workshop starter</title><link href="http://localhost:4000/resources/2019/03/26/ux-workshop-starter.html" rel="alternate" type="text/html" title="UX workshop starter" /><published>2019-03-26T00:00:00+10:00</published><updated>2019-03-26T00:00:00+10:00</updated><id>http://localhost:4000/resources/2019/03/26/ux-workshop-starter</id><content type="html" xml:base="http://localhost:4000/resources/2019/03/26/ux-workshop-starter.html">&lt;p&gt;&lt;i&gt;This document is intended to provide a template for a “first meeting” UX workshop (or workshops, depending on how many departments you have). This example is for a multi-branch, enterprise-level service portal project. This is a good place to start if you want to run a UX workshop and need some ideas around how to do it.&lt;br /&gt;
+  &lt;br /&gt;
+The goal with this workshop is to collect information that will help you (and your clients):&lt;br /&gt;
+  • Understand what UX is and why you are there&lt;br /&gt;
+  • Understand the problems you are trying to design solutions for&lt;br /&gt;
+  • Understand who the users are and what their needs are&lt;br /&gt;
+  • Understand what the next steps will be&lt;br /&gt;
+  &lt;br /&gt;
+Use and adjust this document as you see fit, just don’t be an asshole about it :) &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/downloads/UX_workshop_starter.odt&quot;&gt;&lt;code&gt;Download this page as an editable ODT doc&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;What is UX? Why are we here?&lt;/h4&gt;
+&lt;p&gt;• User Experience (UX) design is a way of designing something from the perspective of the people who will be using it. It puts the user at the heart of a project throughout its development. It is a methodical, collaborative, data-driven process. Benefits of employing UX design include: early buy-in from stakeholders and users, clearer build requirements, easier changeover for the business and fewer surprises during the project!&lt;br /&gt;
+  • We are here to share our understanding of what we are trying to build.&lt;br /&gt;
+  • We are here to generate requirements for the build as well as establish benchmark data that will help measure its effectiveness after it is built.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Questions for the group: Who are the users?&lt;/h4&gt;
+&lt;p&gt;• What are the user types/groups?&lt;br /&gt;
+  • What are they trying to achieve?&lt;br /&gt;
+  • How are they currently meeting these needs?&lt;br /&gt;
+  • What devices are they using?&lt;br /&gt;
+  • What are their current pain points?&lt;br /&gt;
+  • In a perfect world, what would it be nice for this product to be able to do?&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Questions for the group: What value does this product provide?&lt;/h4&gt;
+&lt;p&gt;• What user problems are we solving (for each user type)?&lt;br /&gt;
+  • What business problems are we solving?&lt;br /&gt;
+  • What are the business goals?&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Questions for the group: What should we build?&lt;/h4&gt;
+&lt;p&gt;• Define your project clearly&lt;br /&gt;
+  • What features MUST we have?&lt;br /&gt;
+  • What can we realistically achieve, considering time, resources and budget?&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Activity for the group: Usage from the Requester’s (“front of house”) perspective&lt;/h4&gt;
+&lt;p&gt;(If you have multiple branches represented, break-into respective groups, have them do the activity, then have them come back and report to the group)&lt;br /&gt;
+  • Map common (current) use cases and the current process from a requester’s perspective&lt;br /&gt;
+  • Present, discuss needs, pain points, hopes&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Activity for the group: Usage from the Fulfiller’s (“back of house”) perspective&lt;/h4&gt;
+&lt;p&gt;(If you have multiple branches represented, break-into respective groups, have them do the activity, then have them come back and report to the group)&lt;br /&gt;
+  • Map common (current) use cases and the current process from a fulfiller’s perspective&lt;br /&gt;
+  • Present, discuss needs, pain points, hopes&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Discuss terminology&lt;/h4&gt;
+&lt;p&gt;• As a group, discuss “what things should be called”, in regards to navigation, departments/branches, specific services, process steps, etc. Remind the group to think from the perspectives of the people actually using the interface.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Discuss visual design needs&lt;/h4&gt;
+&lt;p&gt;• Are we doing the visual design (UI)? Is there a marketing department? Is there a style guide? Are there established brand guidelines?&lt;br /&gt;
+  • Remember the purpose of this project and who is using the interface.&lt;br /&gt;
+  • Is this product outward-facing or inward-facing?&lt;br /&gt;
+  • Does it have a marketing impact or is it just a tool?&lt;br /&gt;
+  • Discuss accessibility and what measures should be taken (colourblind palette, mouse ability, etc)&lt;br /&gt;
+  • Explain that you need to test the product usability BEFORE and AFTER the visual design has been implemented to ensure the UX remains intact. “Bad UI design can wreck good UX design”.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Discuss next steps:&lt;/h4&gt;
+&lt;p&gt;• I’ll compile the outcomes from this workshop into a guiding document&lt;br /&gt;
+  • I will socialise the guiding document for feedback and adjust as needed&lt;br /&gt;
+  • Once we’ve agreed on the approach, I’ll start creating preliminary solutions wireframes for validation and feedback&lt;br /&gt;
+  • Socialise the solutions drafts, test, adjust, and iterate until consensus is reached&lt;br /&gt;
+  • Apply visual design to solution designs&lt;br /&gt;
+  • Retest usability, adjust, iterate as needed&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;http://www.linkedin.com/in/willjsherman&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download my &lt;a href=&quot;../Will_Sherman_resume.pdf&quot;&gt;CV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can send me an &lt;a href=&quot;mailto:Will@willjsherman.com&quot;&gt;email&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="resources" /><summary type="html">This document is intended to provide a template for a “first meeting” UX workshop (or workshops, depending on how many departments you have). This example is for a multi-branch, enterprise-level service portal project. This is a good place to start if you want to run a UX workshop and need some ideas around how to do it. The goal with this workshop is to collect information that will help you (and your clients): • Understand what UX is and why you are there • Understand the problems you are trying to design solutions for • Understand who the users are and what their needs are • Understand what the next steps will be Use and adjust this document as you see fit, just don’t be an asshole about it :)</summary></entry><entry><title type="html">Usability survey starter</title><link href="http://localhost:4000/resources/2019/03/25/usability-survey-starter.html" rel="alternate" type="text/html" title="Usability survey starter" /><published>2019-03-25T00:00:00+10:00</published><updated>2019-03-25T00:00:00+10:00</updated><id>http://localhost:4000/resources/2019/03/25/usability-survey-starter</id><content type="html" xml:base="http://localhost:4000/resources/2019/03/25/usability-survey-starter.html">&lt;p&gt;&lt;i&gt;The purpose of this document is to serve as a starting place for a usability survey. You should test usability before, during and after your project, in order to get a feel for:&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;
+  &lt;i&gt;- What needs work from a usability perspective&lt;br /&gt;
+&lt;br /&gt;
+  &lt;i&gt;- How your work is coming along&lt;br /&gt;
+&lt;br /&gt;
+  &lt;i&gt;- What value you’ve added to the project&lt;br /&gt;
+    &lt;br /&gt;
+&lt;i&gt;
+Test early and often. You may notice that I’ve worded this survey to remove as much “opinion of visual design” as possible, aiming the user intead on the actual USABILITY of the product. I also try to make the response options as sensible as possible, always adding a “comments” section for people to elaborate.&lt;br /&gt;
+&lt;br /&gt;
+You’re welcome to use and change this document as you see fit, just don’t be an asshole about it :)
+&lt;/i&gt;&lt;br /&gt;
+&lt;a href=&quot;/downloads/usability_survey_starter.odt&quot;&gt;&lt;code&gt;Download this page as an editable ODT doc&lt;/code&gt;&lt;/a&gt;&lt;/i&gt;&lt;/i&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h2&gt;(ProjectName) usability survey&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+We need your feedback to see if there are areas we could improve-upon to make this tool/site/app as useful and successful as possible.&lt;br /&gt;
+&lt;br /&gt;
+Just use the interface as naturally as you can – try to locate the items you’d normally use or look for most often, making note of any issues you might have while using the interface – confusion, frustration, anything missing or needing adjustment.&lt;br /&gt;
+&lt;br /&gt;
+Please feel relaxed about this session- this is feedback for OUR PROJECT, it’s NOT a test of your abilities!&lt;br /&gt;
+&lt;br /&gt;
+Thank you for your help~&lt;br /&gt;
+&lt;br /&gt;
+Xxxxx Xxxxxx&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Visual presentation&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+  Can you clearly locate the navigation options?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Are the icons used in the navigation easy to see?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Do the icons used in the navigation make sense to you?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Is the font style easy to read?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Is the font size easy to read?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Are the navigation options easy to select?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Overall, how would you rate the visual presentation?&lt;br /&gt;
+  • Negative  1  –  2  –  3  –  4  Positive&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Written presentation&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+  Are the words used in the navigation options clear?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Is the writing easy to understand?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Would you consider the writing inclusive?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Would you consider the writing voice approachable?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Did you encounter jargon or words you didn’t understand?&lt;br /&gt;
+  • Yes  -  Some  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Overall, how would you rate the written presentation?&lt;br /&gt;
+  • Negative  1  –  2  –  3  –  4  Positive&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Navigation&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+  Is the top-level navigation easy to follow?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Is the drop-down navigation easy to follow?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Is the page navigation easy to follow?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Is it clear when a link is going to take you to another site?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Did you use the search bar?&lt;br /&gt;
+  • Yes No&lt;br /&gt;
+  • If yes, how would you rate the results?&lt;br /&gt;
+  • Negative  1  –  2  –  3  –  4  Positive&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  How often do you use search bars on other sites/applications?&lt;br /&gt;
+  • My first choice  -  Sometimes  -  As a last resort  -  Never&lt;br /&gt;
+&lt;br /&gt;
+  Overall, how would you rate the navigation?&lt;br /&gt;
+  • Negative  1  –  2  –  3  –  4  Positive&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Feel&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+  Overall, how would you rate your emotional experience?&lt;br /&gt;
+  • Negative  1  –  2  –  3  –  4  Positive&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Do you feel this could be a useful tool for your work?&lt;br /&gt;
+  • Yes  -  Mostly Yes  -  Mostly No  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+  Would you recommend this system to your coworkers?&lt;br /&gt;
+  • Yes  -  Probably  -  Probably not  -  No&lt;br /&gt;
+  • Comments:&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Other&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+  Do you have any other comments, suggestions or concerns?&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;http://www.linkedin.com/in/willjsherman&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download my &lt;a href=&quot;../Will_Sherman_resume.pdf&quot;&gt;CV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can send me an &lt;a href=&quot;mailto:Will@willjsherman.com&quot;&gt;email&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="resources" /><summary type="html">The purpose of this document is to serve as a starting place for a usability survey. You should test usability before, during and after your project, in order to get a feel for: - What needs work from a usability perspective - How your work is coming along - What value you’ve added to the project Test early and often. You may notice that I’ve worded this survey to remove as much “opinion of visual design” as possible, aiming the user intead on the actual USABILITY of the product. I also try to make the response options as sensible as possible, always adding a “comments” section for people to elaborate. You’re welcome to use and change this document as you see fit, just don’t be an asshole about it :) Download this page as an editable ODT doc</summary></entry><entry><title type="html">Internal service portal</title><link href="http://localhost:4000/projects/2018/07/25/internal-service-portal-project.html" rel="alternate" type="text/html" title="Internal service portal" /><published>2018-07-25T00:00:00+10:00</published><updated>2018-07-25T00:00:00+10:00</updated><id>http://localhost:4000/projects/2018/07/25/internal-service-portal-project</id><content type="html" xml:base="http://localhost:4000/projects/2018/07/25/internal-service-portal-project.html">&lt;p&gt;This project was undertaken to create an internal company service portal for an organisation that would be used across all departments, from HR to Project Development. I was asked to architect the site strucure, give it a complete UX approach and design the user interface.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;My process involved:&lt;/h4&gt;
+&lt;h4&gt;A survey to the team to determine user types and needs:&lt;/h4&gt;
+&lt;blockquote&gt;&lt;h4&gt;Preliminary user questions:&lt;/h4&gt;&lt;br /&gt;
+1. What is your role?&lt;br /&gt;&lt;br /&gt;
+2. What stuff do you use/need to find a lot?&lt;br /&gt;&lt;br /&gt;
+3. What do you use this stuff for?&lt;br /&gt;&lt;br /&gt;
+4. How do you currently find these things?&lt;br /&gt;&lt;br /&gt;
+5. What are common pain points with this process currently?&lt;br /&gt;&lt;br /&gt;
+6. In the normal course of your job, what technical/administrative tasks cause you irritation?&lt;br /&gt;&lt;br /&gt;
+7. What device(s) do you use to perform tasks for your job and engage with the business?&lt;br /&gt;&lt;br /&gt;
+8. In a perfect world, what would it be nice to be able to do with this portal?&lt;br /&gt;&lt;br /&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;Using the results of the survey, I performed in-depth interviews with the various user types, and determined the business goals, portal sections needed, and fleshed-out user types:&lt;/h4&gt;
+&lt;blockquote&gt;&lt;h4&gt;Business goals:&lt;/h4&gt; Provide a single point of access to help all team members work smarter and get access to up-to-date information quickly and efficiently&lt;br /&gt;
+    &lt;h4&gt;Sections:&lt;/h4&gt;&lt;br /&gt;
+Docs - Integrate all internal files (Sales documents, images, case studies) - main document repository will remain in SharePoint and new information architecture will be implemented to support ease of use&lt;br /&gt;&lt;br /&gt;
+Team - internal services (profiles, HR, payroll)&lt;br /&gt;&lt;br /&gt;
+Insights - &quot;Knowledge base&quot; - search for previous clients and projects (industries, re-usable elements, how-tos)&lt;br /&gt;&lt;br /&gt;
+Projects - project management tool (project lifecycle)&lt;br /&gt;&lt;br /&gt;
+Clients - client management tool (sales lifecycle)&lt;br /&gt;&lt;br /&gt;
+Resources – resource management tool (assignment, timesheets, costs)&lt;br /&gt;
+&lt;br /&gt;
+&lt;h4&gt;User groups&lt;/h4&gt; (if not in a group, just access general areas):&lt;br /&gt;&lt;br /&gt;
+Management group (including HR)&lt;br /&gt;&lt;br /&gt;
+Project /engagement management group&lt;br /&gt;&lt;br /&gt;
+Customer success/pre-sales group&lt;br /&gt;&lt;br /&gt;
+Delivery/consulting group&lt;br /&gt;&lt;br /&gt;
+Labs group (Products, collateral, etc.)&lt;br /&gt;&lt;br /&gt;
+Learn group (trainers, schedules, etc.)&lt;/blockquote&gt;
+
+&lt;h4&gt;I drafted a preliminary sitemap, socialised and got team feedback&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/portfolio/EnablePS/structure.jpg&quot; /&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;/images/portfolio/EnablePS/sitemap.png&quot; /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;I created wireframes, socialised and got usability feedback&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/portfolio/EnablePS/wireframe1.jpg&quot; /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;I created screen prototypes, socialised and got usability feedback&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;I completed prototypes for all screens, finalised the sitemap and handed-over to the dev team&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/portfolio/EnablePS/enable_sp_Me_Leave.png&quot; /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;I performed usability testing (&quot;talk me through this while you do it&quot;) with team members from all user groups and recommended minor changes before the site went live business-wide.&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;http://www.linkedin.com/in/willjsherman&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download my &lt;a href=&quot;../Will_Sherman_resume.pdf&quot;&gt;CV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can send me an &lt;a href=&quot;mailto:Will@willjsherman.com&quot;&gt;email&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">This project was undertaken to create an internal company service portal for an organisation that would be used across all departments, from HR to Project Development. I was asked to architect the site strucure, give it a complete UX approach and design the user interface. My process involved: A survey to the team to determine user types and needs: Preliminary user questions: 1. What is your role? 2. What stuff do you use/need to find a lot? 3. What do you use this stuff for? 4. How do you currently find these things? 5. What are common pain points with this process currently? 6. In the normal course of your job, what technical/administrative tasks cause you irritation? 7. What device(s) do you use to perform tasks for your job and engage with the business? 8. In a perfect world, what would it be nice to be able to do with this portal? Using the results of the survey, I performed in-depth interviews with the various user types, and determined the business goals, portal sections needed, and fleshed-out user types: Business goals: Provide a single point of access to help all team members work smarter and get access to up-to-date information quickly and efficiently Sections: Docs - Integrate all internal files (Sales documents, images, case studies) - main document repository will remain in SharePoint and new information architecture will be implemented to support ease of use Team - internal services (profiles, HR, payroll) Insights - &quot;Knowledge base&quot; - search for previous clients and projects (industries, re-usable elements, how-tos) Projects - project management tool (project lifecycle) Clients - client management tool (sales lifecycle) Resources – resource management tool (assignment, timesheets, costs) User groups (if not in a group, just access general areas): Management group (including HR) Project /engagement management group Customer success/pre-sales group Delivery/consulting group Labs group (Products, collateral, etc.) Learn group (trainers, schedules, etc.)</summary></entry><entry><title type="html">One day workshop</title><link href="http://localhost:4000/projects/2018/04/01/enet-project.html" rel="alternate" type="text/html" title="One day workshop" /><published>2018-04-01T00:00:00+10:00</published><updated>2018-04-01T00:00:00+10:00</updated><id>http://localhost:4000/projects/2018/04/01/enet-project</id><content type="html" xml:base="http://localhost:4000/projects/2018/04/01/enet-project.html">&lt;p&gt;This was a one-day workshop for a large energy utility, held at the customer’s facility in Adelaide. The engagement was to include the workshop and a report that would guide their team to keep the usability of their service portal in focus.&lt;/p&gt;
+
+&lt;h2&gt;The rundown&lt;/h2&gt;
+&lt;p&gt;I give a brief introduction of my experience, an explanation of UX design and outline what our goals and process will be:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Discuss business goals and project history&lt;/li&gt;
+&lt;li&gt;Identify users &amp;amp; their needs&lt;/li&gt;
+&lt;li&gt;Identify business branches included and their challenges&lt;/li&gt;
+&lt;li&gt;Examine existing portal and processes&lt;/li&gt;
+&lt;li&gt;Discuss service structure&lt;/li&gt;
+&lt;li&gt;Examine portal layout and terminology options&lt;/li&gt;
+&lt;li&gt;Determining workshop needs focus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I ask questions to learn: the business goals for the portal; who the users are; and where we need to focus our attention for the UX:&lt;/p&gt;
+
+&lt;p&gt;Q- What are the business goals?&lt;br /&gt;
+A- Integrate all branches (eventually) and services into one portal, allow self-service, increase fulfilment speed, increase status visibility and reduce service desk workload.&lt;br /&gt;
+&lt;br /&gt;
+Q- Is this portal for internal or external users (or both)?&lt;br /&gt;
+A- Internal only&lt;br /&gt;
+&lt;br /&gt;
+Q- What branches of your business will be putting their services on this portal?&lt;br /&gt;
+A- IT, Facilities, Payroll/HR&lt;br /&gt;
+&lt;br /&gt;
+Q- How do users currently access these services, and what are their most common complaints?&lt;br /&gt;
+A- Via the service desk: email, phone, walk-in&lt;br /&gt;
+&lt;br /&gt;
+We look at some of their current (old) portal pages and discuss how we might be better able to lay-out the navigation, then I start sketching view options on the whiteboard.&lt;/p&gt;
+
+&lt;p&gt;We sketch, discuss and adjust Landing page needs and layout (we come up with a few “quick view” panels, like one for Status and panels for “most common services and KBAs” for each top-level nav item.)&lt;br /&gt;
+&lt;img src=&quot;/images/portfolio/enet/wireframe_landing_page.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We sketch, discuss and adjust the search results page needs and layout (I suggest tagging KBAs and services so we can include them together in the search results, improving self-service)&lt;br /&gt;
+&lt;img src=&quot;/images/portfolio/enet/wireframe_search_results_page.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sketch, discuss and adjust Catalog page needs and layout.&lt;br /&gt;
+&lt;img src=&quot;/images/portfolio/enet/wireframe_catalog_page.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We dig-in to the actual services offered by their included branches, categorise them and work on consistent terminology that can apply across the portal.&lt;br /&gt;
+&lt;img src=&quot;/images/portfolio/enet/services_nav_IT.jpg&quot; /&gt;
+&lt;img src=&quot;/images/portfolio/enet/services_nav_Facilities.jpg&quot; /&gt;
+&lt;img src=&quot;/images/portfolio/enet/wireframe_contact_page.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Having workshopped these layouts and the service groupings and terminology, we reach a point where we are all happy with the state of the wireframes and content.&lt;/p&gt;
+
+&lt;p&gt;The ElectraNet team are going to take what we worked on and help their HR and Finance branches work their services into a similar grouping structure and terminology to what we worked out for IT and Facilities.&lt;/p&gt;
+
+&lt;p&gt;Comments from their team:&lt;/p&gt;
+&lt;blockquote&gt;“We had no idea what to expect with this meeting, this has been incredibly helpful”&lt;/blockquote&gt;
+&lt;blockquote&gt;“What we’ve done in this one 6 hour workshop would have taken us WEEKS otherwise!”&lt;/blockquote&gt;
+&lt;blockquote&gt;“This just makes sense. It seems so simple.”&lt;/blockquote&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;http://www.linkedin.com/in/willjsherman&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download my &lt;a href=&quot;../Will_Sherman_resume.pdf&quot;&gt;CV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can send me an &lt;a href=&quot;mailto:Will@willjsherman.com&quot;&gt;email&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">This was a one-day workshop for a large energy utility, held at the customer’s facility in Adelaide. The engagement was to include the workshop and a report that would guide their team to keep the usability of their service portal in focus.</summary></entry><entry><title type="html">Govt service portal</title><link href="http://localhost:4000/projects/2017/11/25/service-portal-project.html" rel="alternate" type="text/html" title="Govt service portal" /><published>2017-11-25T00:00:00+10:00</published><updated>2017-11-25T00:00:00+10:00</updated><id>http://localhost:4000/projects/2017/11/25/service-portal-project</id><content type="html" xml:base="http://localhost:4000/projects/2017/11/25/service-portal-project.html">&lt;h1&gt;A really REALLY big service portal project&lt;/h1&gt;
+&lt;p&gt;(note: &lt;em&gt;This was the fourth time this project had been undertaken by the client&lt;/em&gt;)&lt;/p&gt;
+
+&lt;h2&gt;&lt;u&gt;DISCOVERY PHASE&lt;/u&gt;&lt;/h2&gt;
+&lt;p&gt;I started this project by spending 2-3 weeks finding (there was a lot of detective work on this one) and analysing past project documents, requesting and poring over spreadsheets and graphs of data in order to: &lt;br /&gt;
+    - Understand existing project structure and scope of the project &lt;br /&gt;
+    - Identify user groups and demographics&lt;br /&gt;
+    - Analyse service request statistics&lt;br /&gt;
+    I began to ask questions of various stakeholders to gain comprehension of project segments, resources and where to focus my energies.
+  &lt;img src=&quot;/images/portfolio/DET/discovery1.jpg&quot; /&gt;&lt;br /&gt;
+  &lt;br /&gt;
+  &lt;img src=&quot;/images/portfolio/DET/discovery2.jpg&quot; /&gt;&lt;br /&gt;
+  &lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Findings&lt;/h4&gt;
+&lt;p&gt;This project consisted of: five internal branches (HR, IT, Infrastructure, Finance, Procurement)  who would be using the service portal internally as both requesters and fulfillers as approximately 20% of the user base, and the other 80% were external employees in a range of roles, located across the state, who would be using the system as requesters.&lt;br /&gt;
+&lt;br /&gt;
+Through long analysis of project requirement docs, user and usage data, I determined that our principal challenge would be creating intuitive navigation that would be successful with all user groups (both internal fulfillers and external requesters), particularly the external requesters, as they accounted for approximately 80% of the system usage and 94% of the user count.&lt;br /&gt;
+&lt;br /&gt;
+The most commonly requested service area was by far HR, with the number of service requests double that of the next most commonly requested service area, IT.&lt;br /&gt;
+&lt;br /&gt;
+The government branches had varying degrees of understanding, visibility or structure for their own service trees, and there was very limited and dubious usability data. The services lists were not standard in structure across branches, in various states of maintenance, and frequently contained duplication or items that were no longer relevant or active. The terminology used for services was frequently obscure and lengthy.&lt;br /&gt;
+&lt;br /&gt;
+Previous project teams had not contained any UX roles, and user and service request data had not been utilised. No-one had ever approached the external user groups (80% of service requests, 94% of users) for inclusion or feedback - which meant input had been limited to corporate branches and executives (20% of service requests, 6% of users). Focus had been primarily on UI design, corporate branch-based navigation structure and out-of-the-box terminology.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;u&gt;UX DESIGN PHASE&lt;/u&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;A project requirement was to create a navigation that was not branch structured. I spent a couple solid weeks brainstorming and discussing terminology and navigation structures that could accommodate primarily the external users, while still maintaining usability for the five internal branches. The services of the branches were carved-up into the new categories I’d created: Me, Operations, Manager, Support, Information.&lt;br /&gt;
+  &lt;br /&gt;
+I named and placed branch service categories as best as I could, debated and refined these navigation categories and sub-categories internally, then presented and explained them in a workshop with the external user representatives (called “Business Managers” or “BMs”). &lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;The BM workshop&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+“Why have you blown our brains apart and tried to put them back together?!” was my favourite takeaway quote from a clearly frustrated BM. How would you rather have this set up?”, I asked. “The way it is on OnePortal”, she replied. The rest of the group agreed.&lt;br /&gt;
+  &lt;br /&gt;
+OnePortal is the bloated, confusing, dated intranet for the whole of Queensland Government which I had learned that everyone loves to hate. But these representatives of our largest user group still preferred to navigate to services through the terminology used on OnePortal, which tended to be largely corporate branch based: Finance, HR, Infrastructure, Procurement, IT. &lt;br /&gt;
+  &lt;br /&gt;
+They got the idea though of what I had been trying to achieve with my proposed navigation structure, and we ended-up creating a hybrid of their preferred nav structure and mine. We added a topnav item: “Student”, changed “Me” to “You” and changed “Information” to “Knowledge”.&lt;br /&gt;
+  &lt;br /&gt;
+What I learned was that, while it might appear that the BMs wanted a branch-based navigation structure, the fact was that they understood these titles as service categories. &lt;br /&gt;
+  &lt;br /&gt;
+Posters flapped, Post-Its whipped and the smell of Sharpies filled the room. The BMs were a bit stunned that I was so quickly and easily convinced to adjust to their preferred terminology and structure, and their buy-in was immediate and empassioned. &lt;br /&gt;
+    &lt;img src=&quot;/images/portfolio/DET/workshop2.jpg&quot; /&gt;&lt;br /&gt;
+  &lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;The corporate workshop&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+The following workshop was done with just the internal corporate branch reps, and they discussed and placed their perceived service categories into the new navigation structure, creating their own take on the navigation posters the BMs had created.&lt;br /&gt;
+    &lt;img src=&quot;/images/portfolio/DET/workshop1.jpg&quot; /&gt;&lt;br /&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+At this point, I started to create some lo-fi wireframes and tinker with screens for various user types and sections, attempting to balance a simple interface with a huge catalog of services. I was very careful to avoid introducing style elements, and focused solely on the efficient delivery of content and the mechanics and terminology of the navigation.&lt;br /&gt;
+    &lt;img src=&quot;/images/portfolio/DET/wireframe.jpg&quot; /&gt;&lt;br /&gt;
+  &lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;The combined workshop&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+The week after that we combined the groups: bringing the BMs and corporate branch reps all together. The branch reps each in turn presented “their” pages and discussed their decisions with the BMs. &lt;br /&gt;
+  &lt;br /&gt;
+The feedback and perspective both groups acquired in this workshop was invaluable to the project and all of the participants. Hearing the rationales and needs directly from the different user types really helped bring the perspectives to life for the different groups.&lt;br /&gt;
+  &lt;br /&gt;
+The value of validated, user-driven navigation was powerful and immediately visible, and effected a sea-change with the attitudes of the corporate branches, who now realised much more clearly the perspective and needs of our largest user group.&lt;br /&gt;
+  &lt;br /&gt;
+  I also presented the initial wireframes I’d mocked-up, to better illustrate how the interface would function, and to demonstrate why I needed a consistent hierarchy of services. The feedback I received from all stakeholders was positive, with only a couple minor refinements suggested.
+    &lt;img src=&quot;/images/portfolio/DET/dashboard.jpg&quot; /&gt;&lt;br /&gt;
+  &lt;br /&gt;
+  &lt;img src=&quot;/images/portfolio/DET/catalog.jpg&quot; /&gt;&lt;br /&gt;
+  &lt;br /&gt;
+  The branches were then tasked with refining their service trees, and given a structure hierarchy template to work with that would give them maximum flexibility, while conforming with the information architecture for the service portal.&lt;br /&gt;
+    &lt;img src=&quot;/images/portfolio/DET/workshop3.jpg&quot; /&gt;&lt;br /&gt;
+  &lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;&lt;u&gt;THE BUILD PHASE&lt;/u&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+After the service trees were refined, I was able to pass the wireframes and section maps to the development team to build. This included a hi-rez UI design I had created, which aimed at making this portal a fast and effective tool, rather than a clunky, bloated show piece. The design was neutral, minimal and content-focused.
+I worked closely with the dev team to explain the functions, mechanics and needs of the various elements, and occasionally helped adapt various pieces to make the development more practical. &lt;br /&gt;
+&lt;img src=&quot;/images/portfolio/DET/dashboard10.jpg&quot; /&gt;&lt;br /&gt;
+  &lt;br /&gt;&lt;/p&gt;
+&lt;h2&gt;The testing workshop&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+After the initial build was completed, I conducted another combined workshop to test the new interface and get more refinements. &lt;br /&gt;
+&lt;br /&gt;
+We let the attendees have a hands-on play-around with an actual online interface, and I was astounded at the positive and emotional response, particularly from the external users.&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;h2&gt;“You have no idea what this means to us – you’ve changed our lives!”&lt;/h2&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;br /&gt;
+My takeaway quote from this workshop was “You have no idea what this means to us – you’ve changed our lives!”. The session ended in smiles and hugs from attendees, which really made all the hard work worth it for me.&lt;br /&gt;&lt;/p&gt;
+&lt;h2&gt;The formal usability rollout&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+After a few more tweaks, we were ready to send the portal to a wider audience (of about 300) for more formalised testing. I created a digital questionnaire that was careful to keep the focus of opinions on ease of navigation and task achievement, rather than opinions on style. I was also methodical about ensuring the language was clear and neutral, and designed the document to collect both numeric metrics as well as areas for open comments.&lt;br /&gt;
+&lt;br /&gt;
+It’s worth noting as well that thorough accessibility testing was also performed on the portal.&lt;br /&gt;
+&lt;br /&gt;
+The returning figures and feedback was overwhelmingly positive, with an overall usability rating of 3.8 out of 4.
+I finished the project by urging the team to be wary of UI strong-arming by executives (something I had been battling throughout the project), and warned that “bad UI can break good UX.” &lt;br /&gt;
+&lt;br /&gt;
+The service portal did at last go live (with some UI changes I was not crazy about), and considering the history and immense complexity of this project, I was very proud to see it successfully implemented, and to this day it is the work I am most proud of in my UX career.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;http://www.linkedin.com/in/willjsherman&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download my &lt;a href=&quot;../Will_Sherman_resume.pdf&quot;&gt;CV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can send me an &lt;a href=&quot;mailto:Will@willjsherman.com&quot;&gt;email&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">A really REALLY big service portal project (note: This was the fourth time this project had been undertaken by the client)</summary></entry></feed>
