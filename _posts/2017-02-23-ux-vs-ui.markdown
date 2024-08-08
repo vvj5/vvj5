@@ -1,0 +1,21 @@
+---
+layout: category-post
+title:  "UX vs UI"
+date:   2017-02-23
+categories: resources
+---
+OK, UX vs UI.
+
+UX (User Experience design) makes something work.
+
+UI (User Interface design) makes something look good.
+
+I'm glad we've cleared that up.
+
+<br>
+<hr>
+You can find me on [LinkedIn](http://www.linkedin.com/in/willjsherman)
+
+You can download my [CV](../Will_Sherman_resume.pdf)
+
+You can send me an [email](mailto:Will@willjsherman.com)
